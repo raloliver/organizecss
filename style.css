@@ -1,0 +1,67 @@
+/*custom
+-------------------------------------------------*/
+
+/*nav
+-------------------------------------------------*/
+nav.nav {
+    position: relative;
+}
+.nav.hamburguer {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+.nav.logo {
+    display: inline-block;
+    padding: 1rem 0 .3rem;
+}
+.nav.link {
+    display: inline-block;
+    color: #555;
+    text-decoration: none;
+    padding: 2.5rem;
+    padding-left: 0;
+}
+.nav.link:visited {
+    color: #555;
+}
+.nav.menu {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-in-out .2s;
+}
+.nav.menu.open {
+    max-height: 30rem;
+}
+@media screen and (min-width: 750px) {
+    .nav.link {
+        padding-left: 2.5rem;
+    }
+    .nav.menu {
+        justify-content: flex-end;
+        flex-flow: row wrap;
+        max-height: 20rem;
+    }
+    .nav.hamburguer {
+        display: none;
+    }
+};
+/*header
+-------------------------------------------------*/
+
+/*features
+-------------------------------------------------*/
+
+/*plans
+-------------------------------------------------*/
+
+/*team
+-------------------------------------------------*/
+
+/*footer
+-------------------------------------------------*/
