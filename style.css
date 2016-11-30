@@ -130,3 +130,19 @@ header.pricing {
 
 /*footer
 -------------------------------------------------*/
+footer.footer {
+    padding: 7rem 0;
+    background-color: #555;
+    color: #b1b1b1;
+}
+.footer.title {
+    color: #fff;
+    margin: 1rem 0;
+}
+.footer.text, 
+a.footer.text {
+    font-size: .9em;
+    display: block;
+    color: #b1b1b1;
+    text-decoration: none;
+} 
